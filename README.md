@@ -6,3 +6,5 @@ Much of my focus was on hardening the walk of the chunks so that a failure would
 sure that all access into the data were first validated to be safe, and to throw an exception if it was not. I also tried to 
 reduce the amount of casts being done, and when necessary make them C++ casts rather than old-school C ones. Finally, I added
 commentary and renamed to try and improve the look-and-feel of the API.
+
+I use this in my [SoundFonts](https://github.com/bradhowes/SoundFonts) music application to generate a patch listing for a SoundFont file.

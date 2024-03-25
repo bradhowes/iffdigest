@@ -7,5 +7,5 @@ sure that all access into the data were first validated to be safe, and to throw
 reduce the amount of casts being done, and when necessary make them C++ casts rather than old-school C ones. Finally, I added
 commentary and renamed to try and improve the look-and-feel of the API.
 
-I used to this in my [SoundFonts](https://github.com/bradhowes/SoundFonts) music application to generate a patch listing for a SoundFont file, 
+I used to use this in my [SoundFonts](https://github.com/bradhowes/SoundFonts) music application to generate a patch listing for a SoundFont file, 
 but now I rely on my own [SF2Lib](https://github.com/bradhowes/SF2Lib) library to do it.
